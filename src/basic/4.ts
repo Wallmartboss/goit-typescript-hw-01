@@ -13,4 +13,5 @@ console.log(calc(3, 6));
 function customError(): never {
   throw new Error('Error');
 };
-console.log(customError());
+
+export {};
