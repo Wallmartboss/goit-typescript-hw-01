@@ -1,5 +1,3 @@
-
-
 type User = {
   name: string;
   surname: string;
@@ -8,7 +6,6 @@ type User = {
 }
 
 function createOrUpdateUser(initialValues: Partial<User>): User {
-  // Оновлення користувача
   const defaultUser: User = {
     name: 'userName',
     surname: 'userSurname',
